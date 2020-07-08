@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfilePage from '../ProfilePage'
+
 import { 
   Container,
   Header,
@@ -36,6 +37,7 @@ const Main: React.FC = () => {
           <EmailIcon />
         </BottomMenu>
 
+        <ProfilePage />
 
       </Container>
     );
