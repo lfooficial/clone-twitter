@@ -21,4 +21,9 @@ border-bottom: 2px solid var(--twitter);
 }
 `;
 
-export const Tweets = styled.div``;
+export const Tweets = styled.div`
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+
+`;
